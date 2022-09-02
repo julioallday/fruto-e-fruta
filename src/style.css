@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.imagem-carrossel1{
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 80%;
+}
+.imagem-carrossel2{
+    height: 400px;
+    object-fit: cover;
+}
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+.fonte-titulo:hover {
+    color: green;
+}
+.cor-especial {
+    color: darkred;
+}
+.botao-cor-especial{
+    background-color:darkred;
+    color:white;
+}
+.botao-cor-especial:hover{
+    background-color:darkred;
+    color:black;
+}
+.borda-cor-especial{
+    border-color:darkred;
+}
