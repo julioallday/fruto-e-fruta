@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .tamanho-card{
-    width: 18rem;
+    max-width: 18rem;
 }
 
 .imagem-carrossel1{
@@ -13,11 +13,19 @@
     height: 400px;
     object-fit: cover;
 }
+.fonte-nav{
+    font-family: 'Pacifico', cursive;
+    color:green;
+}
+.fonte-nav:hover{
+    color:darkred;
+    
+}
 .fonte-titulo {
     font-family: 'Pacifico', cursive;
 }
 .fonte-titulo:hover {
-    color: green;
+ 
 }
 .cor-especial {
     color: darkred;
@@ -28,6 +36,10 @@
 }
 .botao-cor-especial:hover{
     background-color:darkred;
+    color:gold;
+ 
+}
+.botao-cor-especial:active{
     color:black;
 }
 .borda-cor-especial{
@@ -37,4 +49,7 @@
     height: 200px;
   //  object-fit: cover;
     object-position: 0 80%;
+}
+.borda-imagem{
+    border-radius:07px;
 }
